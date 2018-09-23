@@ -1,0 +1,16 @@
+site_logo_url: ../media/logomark.svg
+site_logo_href: /
+baseurl: https://docs.aliceos.app/
+site_title: DDMC Docs
+site_navigation_colors: true
+
+navigation:
+    - title: Main site
+    - children:
+      - title: Welcome
+        location: index.md
+      - title: FAQ
+        location: faq.md
+    
+
+      
