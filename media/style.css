@@ -1,12 +1,12 @@
 /* Define DDLC Fonts */
 @font-face {
     font-family: DDLCHeader;
-    src: url('../media/riffic.ttf');
+    src: url('riffic.ttf');
 }
 
 @font-face {
     font-family: DDLCMain;
-    src: url('../media/aller.ttf');
+    src: url('aller.ttf');
 }
 
 html, body {

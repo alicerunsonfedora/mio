@@ -5,7 +5,7 @@ permalink: /index
 ---
 <style>
     #docs-hero {
-        background-image: url('../media/bg.png');
+        background-image: url('/media/bg.png');
         background-repeat: repeat;
         background-size: initial;
         color: #333333;
