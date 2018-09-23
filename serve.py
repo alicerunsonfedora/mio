@@ -18,16 +18,6 @@ def run_build():
     except:
         print "Something went wrong. Are you sure you have documentation-builder installed?"
 
-    print "Copying GitHub Pages files over..."
-    try:
-        # copyfile(".htaccess", "docs/.htaccess")
-        with open("docs/CNAME", "w+") as cname:
-            cname.write("docs.aliceos.app")
-
-        copyfile("index.html", "docs/index.html")
-    except:
-        "Something went wrong. Are you sure that you have the right files?"
-
 def start_serve(action):
     if action == "build-only":
         run_build()
